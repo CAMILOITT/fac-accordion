@@ -102,6 +102,20 @@ body {
 .faq__question-active {
   font-weight: 700;
 }
+.question__img {
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.question__img-active {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
 .faq__answer {
   height: 45px;
   font-size: var(--FontSize);
