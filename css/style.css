@@ -166,18 +166,15 @@ body {
     text-align: center;
     font-size: 3rem;
   }
-  /* .faq__section {
-    padding: 10px 0;
-    border-block-end: 1px solid;
-  } */
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
   color: white;
 }
 .attribution a {
+  font-size: 14px;
   color: var(--SoftRed);
   text-decoration: none;
   font-weight: bold;
